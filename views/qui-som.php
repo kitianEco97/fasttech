@@ -24,6 +24,7 @@ require '../functions.php';
 				</article>
 			</div>
 		</div>
+		<?php require '../regresar.php'; ?>
 	</div>
 
 <?php require 'footer.php'; ?>

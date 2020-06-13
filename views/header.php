@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="shortcut icon" type="image/x-icon" href="<?php echo RUTA; ?>/images/logo-fasttech.ico.png">
+	<link rel="shortcut icon" type="image/x-icon" href="<?php echo RUTA; ?>/images/logo-fasttech.png">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald&display=swap" rel="stylesheet">
@@ -41,7 +41,7 @@
 		    </ul>
 		    <form class="form-inline my-2 my-lg-0" name="busqueda" action="<?php echo RUTA; ?>/buscar.php" method="get">
 		      <input class="form-control mr-sm-2" name="busqueda" type="search" placeholder="Busca algo aqui" aria-label="Search">
-		      <button class="btn btn-primary my-2 my-sm-0" type="submit">Buscar</button>
+		      <button class="btn btn-primary my-2 my-sm-0 fa fa-search" type="submit"> Buscar</button>
 		    </form>
 		  </div>
 		</nav>
